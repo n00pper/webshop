@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace MusicStore
+namespace KertiBolt
 {
     public class FilterConfig
     {

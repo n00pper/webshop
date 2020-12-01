@@ -6,10 +6,10 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using MusicStore.Models;
-using MusicStore.EntityContext;
+using KertiBolt.Models;
+using KertiBolt.EntityContext;
 
-namespace MusicStore.Controllers
+namespace KertiBolt.Controllers
 {
     //
     //[Authorize(Roles = "Administrator")]

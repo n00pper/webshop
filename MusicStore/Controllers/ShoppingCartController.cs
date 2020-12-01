@@ -1,13 +1,13 @@
-﻿using MusicStore.EntityContext;
-using MusicStore.Models;
-using MusicStore.ViewModels;
+﻿using KertiBolt.EntityContext;
+using KertiBolt.Models;
+using KertiBolt.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MusicStore.Controllers
+namespace KertiBolt.Controllers
 {
     public class ShoppingCartController : Controller
     {

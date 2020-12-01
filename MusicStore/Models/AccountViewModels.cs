@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MusicStore.Models
+namespace KertiBolt.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

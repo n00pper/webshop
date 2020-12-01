@@ -1,11 +1,11 @@
-﻿using MusicStore.Models;
+﻿using KertiBolt.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MusicStore.EntityContext
+namespace KertiBolt.EntityContext
 {
     public class MusicStoreEntities : DbContext
     {

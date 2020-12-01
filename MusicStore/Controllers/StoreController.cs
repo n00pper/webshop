@@ -1,5 +1,5 @@
-﻿using MusicStore.EntityContext;
-using MusicStore.Models;
+﻿using KertiBolt.EntityContext;
+using KertiBolt.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MusicStore.Controllers
+namespace KertiBolt.Controllers
 {
     public class StoreController : Controller
     {

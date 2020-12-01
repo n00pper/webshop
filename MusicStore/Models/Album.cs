@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MusicStore.Models
+namespace KertiBolt.Models
 {
     //UI
     [Bind(Exclude = "AlbumId")]

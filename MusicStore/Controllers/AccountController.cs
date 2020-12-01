@@ -6,8 +6,8 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using Mvc3ToolsUpdateWeb_Default.Models;
-using MusicStore.Models;
-using MusicStore.EntityContext;
+using KertiBolt.Models;
+using KertiBolt.EntityContext;
 
 namespace Mvc3ToolsUpdateWeb_Default.Controllers
 {

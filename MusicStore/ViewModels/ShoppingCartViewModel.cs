@@ -1,10 +1,10 @@
-﻿using MusicStore.Models;
+﻿using KertiBolt.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MusicStore.ViewModels
+namespace KertiBolt.ViewModels
 {
     public class ShoppingCartViewModel
     {
