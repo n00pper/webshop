@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace KertiBolt.ViewModels
+namespace MusicStore.ViewModels
 {
     public class ShoppingCartRemoveViewModel
     {

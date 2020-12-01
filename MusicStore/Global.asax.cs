@@ -6,14 +6,14 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace KertiBolt
+namespace MusicStore
 {
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
         {
             //Code First 
-            System.Data.Entity.Database.SetInitializer(new KertiBolt.EntityContext.SampleData());
+            System.Data.Entity.Database.SetInitializer(new MusicStore.EntityContext.SampleData());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

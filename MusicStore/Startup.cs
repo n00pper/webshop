@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(KertiBolt.Startup))]
-namespace KertiBolt
+[assembly: OwinStartupAttribute(typeof(MusicStore.Startup))]
+namespace MusicStore
 {
     public partial class Startup
     {
