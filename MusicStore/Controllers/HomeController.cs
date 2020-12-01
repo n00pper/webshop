@@ -10,7 +10,7 @@ namespace MusicStore.Controllers
 {
     public class HomeController : Controller
     {
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        KertiBoltEntityContext storeDB = new KertiBoltEntityContext();
         //
         // GET: /Home/
         public ActionResult Index()
@@ -19,11 +19,11 @@ namespace MusicStore.Controllers
             var albums = GetTopSellingAlbums(5);
             return View(albums);
         }
-        public List<Album> GetTopSellingAlbums(int count)
+        public List<Termek> GetTopSellingAlbums(int count)
         {
             // Group the order details by album and return
             // the albums with the highest count
-            return storeDB.Albums
+            return storeDB.Termeks
                 .OrderByDescending(a => a.OrderDetails.Count())
                 .Take(count)
                 .ToList();
